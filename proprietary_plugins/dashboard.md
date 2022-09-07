@@ -1,6 +1,6 @@
 ---
 title: "Enhanced Dashboard"
-description: "Brief tagline of the plugin"
+description: "A customizable dashboard for Defect Dojo."
 draft: false
 weight: 2
 ---
