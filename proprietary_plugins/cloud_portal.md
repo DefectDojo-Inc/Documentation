@@ -78,8 +78,6 @@ The daily maintenance schedule times are proposed times for minor updates to tak
 
 To save any changes made to preferred maintenance schedule times, use the _Submit_ button.
 
-_Note:_ All times entered to the maintenance schedule forms are to be entered in Central Standard Time (CST).
-
 ## Contact Support
 
 The contact support page allows for a direct line of communication to the cloud management team from within DefectDojo. This is the fastest method of communication between DefectDojo customers and DefectDojo cloud maintainers.
