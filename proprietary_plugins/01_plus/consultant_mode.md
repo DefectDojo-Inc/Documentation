@@ -19,10 +19,10 @@ Consultant mode can be enabled and disabled within the account settings dropdown
 
 When a cross mark is displayed next to the _Consultant Mode_ text, consultant mode is disabled.
 
-![Enabling Dark Mode](../../images/consultant_mode/cm-disabled.png)
+![Enabling Dark Mode](../../../images/consultant_mode/cm-disabled.png)
 
 When a check mark is displayed next to the _Consultant Mode_ text, consultant mode is enabled.
 
-![Enabling Consultant Mode](../../images/consultant_mode/cm-enabled.png)
+![Enabling Consultant Mode](../../../images/consultant_mode/cm-enabled.png)
 
 For additional information, please see our [pricing page](https://www.defectdojo.com/pricing).

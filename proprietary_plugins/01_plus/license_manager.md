@@ -11,13 +11,13 @@ The license manager within DefectDojo houses all license information for a given
 
 To view the current license information of a given instance, navigate to the _View License_ page under the plugins tab within the sidebar.
 
-![Accessing View License](../../images/license_manager/nav-lm.png)
+![Accessing View License](../../../images/license_manager/nav-lm.png)
 
 ## Viewing License Information
 
 Within the _View License_ page, you will find all the necessary information regarding a given license.
 
-![View License Details](../../images/license_manager/lm-view-license.png)
+![View License Details](../../../images/license_manager/lm-view-license.png)
 
 If the default _Next Reminder_ date is not preferable, the next reminder date can be set manually.
 
@@ -25,7 +25,7 @@ If the default _Next Reminder_ date is not preferable, the next reminder date ca
 
 Reminders related to the expiration of your license will begin 60 days before final day the license is valid. When 7 days remain before license expiration, reminders will trigger daily. 
 
-![License Status Notification](../../images/license_manager/lm-popup.png)
+![License Status Notification](../../../images/license_manager/lm-popup.png)
 
 When prompted with a notification regarding a given license, two options are presented. If _Contact_ is selected, you will be prompted to send an E-mail to DefectDojo support. If _Remind Later_ is selected, the reminder will be snoozed for one day.
 
