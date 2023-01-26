@@ -1,6 +1,6 @@
 ---
-title: "DefectDojo Plus"
+title: "Plus"
 description: "Plugins included with a DefectDojo Plus subscription."
-weight: 3
+weight: 1
 chapter: true
 ---
