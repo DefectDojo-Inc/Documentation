@@ -126,4 +126,36 @@ __Port__ - the port the SMTP server is listening on
 
 Once filled in, these settings may be saved via the _Submit_ button.
 
+## Multi-Factor Authentication (MFA) Settings
+
+MFA settings adds the ability to use multi-factor authentication with a DefectDojo users account. To enable MFA, navigate to the MFA tab within custom settings. By default, MFA is disabled. To learn more about MFA, expand the dropdown titled _What is multi-factor authentication?_
+
+To begin the MFA configuration process, select the button titled _Configure Multi-Factor Authentication_.
+
+![MFA Disabled](../../images/tuner/ts-mfa-off.png)
+
+Once the configuration has been started, a prompt to download a mobile authentication application will appear. Once the application is downloaded on your mobile device, proceed to the next step to obtain the QR code needed to continue MFA configuration via the _Generate QR Code_ button.
+
+![MFA Application](../../images/tuner/ts-mfa-app.png)
+
+Using the camera on your mobile device, scan the QR code displayed on the screen. Once scanned, a six-digit code should be produced that is to be entered in the box below the QR code. Once this code is entered, enable MFA using the _Enable Multi-Factor Authentication_ button.
+
+![MFA QR Code](../../images/tuner/ts-mfa-qr.png)
+
+If the code was entered was correctly in the previous step, MFA is now enabled on your account, and you will be presented with a list of recovery codes. These should be stored in a safe place and used (in place of the normal six-digit code) if access to your mobile authenticator application has been lost.
+
+![MFA Recovery Codes](../../images/tuner/ts-mfa-recovery.png)
+
+To check the status of MFA on your account at any time, navigate back to the _MFA_ tab within _Custom Settings_. This page will show either _Enabled_ or _Disabled_, depending on the status.
+
+![MFA Enabled](../../images/tuner/ts-mfa-on.png)
+
+If at any time you wish to disable MFA on your account, select the _Disable MFA_ button from the _MFA_ tab within _Custom Settings_. This will ask you to confirm you wish to disable multi-factor authentication. Use the _Disable Multi-Factor Authentication_ to confirm this action. To enable MFA again in the future, repeat the steps listed above.
+
+![MFA Confirm Disable](../../images/tuner/ts-mfa-disable.png)
+
+When MFA is enabled, during the login process (after entering your username and password), a new step will be presented, asking for the six-digit code displayed on the mobile authenticator application you selected during setup. To login successfully, enter the six-digit code displayed on your mobile authentication application and select _Submit_ to login.
+
+![MFA Login](../../images/tuner/ts-mfa-login.png)
+
 For additional information, please see our [pricing page](https://www.defectdojo.com/pricing).
