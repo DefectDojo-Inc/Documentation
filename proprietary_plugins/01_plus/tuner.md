@@ -128,7 +128,7 @@ Once filled in, these settings may be saved via the _Submit_ button.
 
 ## Multi-Factor Authentication (MFA) Settings
 
-MFA settings adds the ability to use multi-factor authentication with a DefectDojo users account. To enable MFA, navigate to the MFA tab within custom settings. By default, MFA is disabled. To learn more about MFA, expand the dropdown titled _What is multi-factor authentication?_
+MFA settings adds the ability to use multi-factor authentication with a DefectDojo users account. To enable MFA, select _Personal Settings_ from the dropdown menu under the MFA tab within custom settings. By default, MFA is disabled. To learn more about MFA, expand the dropdown titled _What is multi-factor authentication?_
 
 To begin the MFA configuration process, select the button titled _Configure Multi-Factor Authentication_.
 
@@ -157,5 +157,18 @@ If at any time you wish to disable MFA on your account, select the _Disable MFA_
 When MFA is enabled, during the login process (after entering your username and password), a new step will be presented, asking for the six-digit code displayed on the mobile authenticator application you selected during setup. To login successfully, enter the six-digit code displayed on your mobile authentication application and select _Submit_ to login.
 
 ![MFA Login](../../../images/tuner/ts-mfa-login.png)
+
+### MFA User Audit
+
+To view whether users have enabled MFA or not, navigate to the Users page and find the information ont he right side of the page:
+
+![MFA Users](../../../images/tuner/ts-mfa-users.png)
+
+### Require MFA For All Users
+
+Users with a global maintainer or owner role can enable MFA globally for all users within DefectDojo. For new and existing users, the MFA configuration page will be a blocker within DefectDojo until MFA is fully enabled on the users account. To enable global MFA, select _System Settings_ from the dropdown menu under the MFA tab within custom settings. Select the _Enable Global MFA_ checkbox, and click submit. 
+
+![MFA Global Requirement](../../../images/tuner/ts-mfa-global-require.png)
+
 
 For additional information, please see our [pricing page](https://www.defectdojo.com/pricing).
