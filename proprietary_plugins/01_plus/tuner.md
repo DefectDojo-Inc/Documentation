@@ -94,6 +94,8 @@ While this example only covers _Auth0_ configuration settings, each of the offer
 
 In addition to settings for each specific SSO offering, a small subset of settings general to all SSO methods can be viewed under the _SSO Settings_ page. The following options are included:
 
+__Session Age__ - Dictates how long a given session will be valid for DefectDojo. The default is set to 12 hours. When modified, the expiration for all exisitng sessions will be updated, and possibly expire
+
 __Show Username and Password__ -  when enabled, the username and password fields remain present on the login page and can be used for login
 
 __Allow Login with Username and Password__ - when enabled, the login button by username and password is present
