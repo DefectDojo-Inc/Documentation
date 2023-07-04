@@ -15,15 +15,21 @@ _Enhanced Dashboard_ and is configured globally for all users (e.g. all users wi
 
 This upgraded dashboard for DefectDojo also includes dynamic color tiles, which allows specified tiles to take a range of colors based on minimum and maximum threshold values. With this feature enabled, a tile's color will automatically change based on the data that it represents.
 
-To customize the tables and graphs displayed on the enhanced dashboard, click the _gear_ icon in the top right corner of the dashboard.
-
 ## Enhanced Dashboard Settings
 
-Initially, the _Enhanced Dashboard_ will include preset tiles and metrics, however there is a variety of tiles that can be added. To hide or display different sections of the dashboard, check or uncheck the various options and click submit. With the _Enhanced Dashboard_, graphs, questionnaires, and ranked product datatables can be toggled through this menu.
+To customize the tables and graphs displayed on the enhanced dashboard, click the _gear_ icon in the top right corner of the dashboard. A popup will be presented to customize the tables and graphs displayed on the _Enhanced Dashboard_.
 
 ![Accessing Dashboard Settings](../../../images/dashboard/dd-config.png)
 
-In addition, the default tile configuration can be restored at any time by selecting _Reset to Default_.
+The following components of the dashboard can be hidden:
+
+__Graphs__ - When enabled, the Historical Finding Severity and Reported Finding Severity by Month graphs will be displayed on the dashboard
+
+__Questionnaires__ - When enabled, Unassigned Unanswered Engagement Questionnaires will be displayed on the dashboard
+
+__Data Tables__ - When enabled, the Top 10 Products and Bottom 10 Products data tables will be displayed on the dashboard
+
+In addition to customizing the various components, the default tile configuration can be restored at any time by selecting _Reset to Default_.
 
 ## Adding a Dashboard Tile
 
