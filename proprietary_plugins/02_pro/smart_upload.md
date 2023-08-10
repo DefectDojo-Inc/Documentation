@@ -49,7 +49,7 @@ After importing a scan report with a couple findings, the system will be as foll
 <!-- Screenshot of ../../../images/smart_upload/su-unsaved-findings.puml -->
 ![PUML Unsaved Findings](../../../images/smart_upload/su-unsaved-findings.png)
 
-Once the product matching is ran, the state of the system will be as follows:
+Once the product matching is run, the state of the system will be as follows:
 
 <!-- Screenshot of ../../../images/smart_upload/su-products-matched.puml -->
 ![PUML Products Matched](../../../images/smart_upload/su-products-matched.png)
