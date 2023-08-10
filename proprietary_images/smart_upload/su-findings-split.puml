@@ -1,0 +1,37 @@
+@startuml
+
+frame "Existing Endpoints in System" as EE {
+  [https://alpha.com/\nhttps://beta.com/\nhttps://charlie.com/\n]
+}
+
+package "Original Unsaved Findings" as OUF {
+  frame "Original Unsaved Endpoints" {
+    [https://alpha.com/path/one\nhttps://alpha.com/path/two\nhttps://alpha.com/path/three\nhttps://beta.com/some/path\nhttps://epsilon.com/some/path]
+  }
+}
+
+package "Split Unsaved Finding - Alpha" as SUFA {
+  frame "Split Unsaved Endpoints - Alpha" {
+    [https://alpha.com/path/one\nhttps://alpha.com/path/two\nhttps://alpha.com/path/three]
+  }
+}
+
+package "Split Unsaved Finding - Beta" as SUFB {
+  frame "Split Unsaved Endpoints - Beta" {
+    [https://beta.com]
+  }
+}
+
+package "Split Unsaved Finding - Unmatched" as SUFU {
+  frame "Split Unsaved Endpoints - Unmatched" {
+    [https://epsilon.com/some/path]
+  }
+}
+
+left to right direction
+
+OUF --> SUFA
+OUF --> SUFU
+OUF --> SUFB
+
+@enduml

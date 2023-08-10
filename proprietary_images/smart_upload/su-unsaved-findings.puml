@@ -1,0 +1,29 @@
+@startuml
+
+package "Unsaved Finding 1" as F1 {
+    frame "Endpoints: Finding 1" {
+        [https://alpha.com/some/path\nhttps://beta.com/some/path]
+    }
+}
+package "Unsaved Finding 2" as F2 {
+    frame "Endpoints: Finding 2" {
+        [https://alpha.com/some/path\nhttps://charlie.com/some/path\nhttps://epsilon.com/some/path]
+    }
+}
+
+package "Product: Alpha" as PA {
+  frame "Endpoints: Alpha" {
+    [https://alpha.com]
+  }
+}
+package "Product: Delta" as PD {
+  frame "Endpoints: Delta" {
+    [https://delta.com]
+  }
+}
+
+F1 <-[hidden]right-> F2
+PA <-[hidden]right-> PD
+F1 <-[hidden]down-> PA
+
+@enduml
