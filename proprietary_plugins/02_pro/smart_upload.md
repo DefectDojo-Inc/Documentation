@@ -63,7 +63,7 @@ If a finding's endpoints do not match any existing endpoints within the system, 
 
 #### What happens if multiple matches are found?
 
-Multiple endpoint to product matches is the primary purpose of smart upload! In the diagram above, a finding with multiple hosts/IPs will be split into identical findings and assigned to their respective products. If there are any endpoint hosts without a matching product, then they will also be split into separate findings by host.
+Matching findings from multiple endpoints to products is the primary purpose of smart upload! In the diagram above, a finding with multiple hosts/IPs will be split into identical findings and assigned to their respective products. If there are any endpoint hosts without a matching product, then they will also be split into separate findings by host.
 
 #### How is the data organized in a given product?
 
