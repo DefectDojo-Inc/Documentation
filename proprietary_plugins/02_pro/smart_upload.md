@@ -93,7 +93,7 @@ More information can be added to this newly created product from the "Edit Produ
 
 #### Assign Product
 
-In most cases with infrastructure scans, the endpoints where findings are discovered are often dynamic. When the location of a finding changes, it is necessary to create this link from this new location to an existing product so that a match can be found in the next import. After clicking the "Assign Product" button, a short form will appear to select the product this finding should be assigned to:
+In most cases with infrastructure scans, the endpoints where findings are discovered are dynamic. When the location of a finding changes, it is necessary to create a link from this new location to an existing product so that a match can be found in the next import. After clicking the "Assign Product" button, a short form will appear to select the product this finding should be assigned to:
 
 ![Assign Product](../../../images/smart_upload/su-assign.png)
 
