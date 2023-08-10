@@ -25,7 +25,7 @@ This will prompt the user to fill out information pertaining to the scan file(s)
 
 #### API Endpoint
 
-THe smart upload API endpoint is very similar to other import endpoints available in Defectdojo. The difference here is that only a few fields are required:
+The smart upload API endpoint is very similar to other import endpoints available in DefectDojo. The difference here is that only a few fields are required:
 
 ```
 curl -X 'POST' \
