@@ -85,7 +85,7 @@ After selecting at least one finding, three options will be displayed:
 
 #### Create Product
 
-Sometimes, a finding is detected on an endpoint that may not fully align with any existing products, or may not even fit product model directly. In these cases, it is most appropriate to create a new product for these findings to avoid having them getting misplaced in the future. After clicking the "Create Product" button, a short form will appear to gather some required information about the product:
+Sometimes, a finding is detected on an endpoint that may not fully align with any existing products, or it may not even fit the product model directly. In these cases, it is most appropriate to create a new product for these findings to avoid having them getting misplaced in the future. After clicking the "Create Product" button, a short form will appear to gather some required information about the product:
 
 ![Create Product](../../../images/smart_upload/su-create.png)
 
