@@ -99,7 +99,7 @@ In most cases with infrastructure scans, the endpoints where findings are discov
 
 #### Discarded Findings
 
-When a finding is deemed to be not worth keeping, then it can be discarded from the product placement queue altogether by click ing the "Discard Findings" button
+When a finding is deemed to be not worth keeping, then it can be discarded from the product placement queue altogether by clicking the "Discard Findings" button
 
 #### Supported Tools
 
