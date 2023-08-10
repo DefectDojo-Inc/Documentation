@@ -56,7 +56,7 @@ Once the product matching is run, the state of the system will be as follows:
 
 #### What happens when a matching product is not found?
 
-If a findings endpoints do not match any existing endpoints within the system, then the finding will be split into N findings, where N is the number of unique hosts where this finding was discovered:
+If a finding's endpoints do not match any existing endpoints within the system, then the finding will be split into N findings, where N is the number of unique hosts where this finding was discovered:
 
 <!-- Screenshot of ../../../images/smart_upload/su-split-findings.puml -->
 ![PUML Split Findings](../../../images/smart_upload/su-split-findings.png)
