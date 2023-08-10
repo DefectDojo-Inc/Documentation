@@ -73,7 +73,7 @@ Engagements and Tests created under a product are intended to be CI/CD focused. 
 
 ### Product Placement
 
-Findings parsed from a given report that are not matched to an existing product will be placed in a "product placement" queue where each finding can be assessed by there title, severity, endpoints where the vulnerability was detected, and what file the finding came from.
+Findings parsed from a given report that are not matched to an existing product will be placed in a "product placement" queue where each finding can be assessed by its title, severity, endpoints where the vulnerability was detected, and what file the finding came from.
 
 ![Product Placement](../../../images/smart_upload/su-placement.png)
 
