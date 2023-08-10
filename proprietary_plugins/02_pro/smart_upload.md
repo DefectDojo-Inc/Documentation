@@ -7,7 +7,7 @@ weight: 2
 
 ## Smart Upload
 
-Smart upload is a specialized importer that ingests reports from [infrastructure scanning tools](#supported-tools). The intelligence in this import vehicle comes from the ability to [match incoming findings with existing products based on the hosts of endpoints](#how-are-findings-matched) discovered during the scan. Findings that are not matched with an existing product will be converted to an "Unassigned Finding" object that is separate from other findings and place in a [product placement](#product-placement) queue. This separation is vital for ensuring that these unassigned findings do not have an impact on metrics and reports. 
+Smart upload is a specialized importer that ingests reports from [infrastructure scanning tools](#supported-tools). The intelligence in this import vehicle comes from the ability to [match incoming findings with existing products based on the hosts of endpoints](#how-are-findings-matched) discovered during the scan. Findings that are not matched with an existing product will be converted to an "Unassigned Finding" object that is separate from other findings and placed in a [product placement](#product-placement) queue. This separation is vital for ensuring that these unassigned findings do not have an impact on metrics and reports. 
 
 ### Using Smart Upload
 
