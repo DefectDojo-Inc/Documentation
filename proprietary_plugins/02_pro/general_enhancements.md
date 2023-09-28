@@ -48,10 +48,18 @@ To enable this type of notification, email base notifications must first be enab
 
 #### Cadence
 
-Notifications can be sent on three schedules:
+Notifications are sent out at 9:00 AM within the timezone that is set within your DefectDojo server. Frequency
+of the these notifications can be set according to the following:
 - Daily
-- Weekly
-- Monthly
+- Weekly - Monday
+- Weekly - Tuesday
+- Weekly - Wednesday
+- Weekly - Thursday
+- Weekly - Friday
+- Weekly - Saturday
+- Weekly - Sunday
+- Monthly - 1st of the month
+- Monthly - 15th of the month
 
 #### Email Contents
 
