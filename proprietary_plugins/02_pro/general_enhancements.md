@@ -79,7 +79,7 @@ Notifications come in three scopes:
 
 - System
   - Owners Digests under the system scope will iterate through each group with a registed email address and send the
-    the digest on the defined cadence
+    digest on the defined cadence
 - Personal
   - Owners Digests under the personal scope will iterate through each group that the user is a memebr of, and then
     send a group digest to the inividual user. This action will only be successful if the user has an email address
