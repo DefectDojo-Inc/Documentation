@@ -63,7 +63,7 @@ of the these notifications can be set according to the following:
 
 #### Email Contents
 
-The contents of the email message is as follows:
+The content of the email message is as follows:
 
 > Hello <User Group Name>,
 > 
