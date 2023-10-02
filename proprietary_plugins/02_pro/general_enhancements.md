@@ -1,6 +1,6 @@
 ---
 title: "General Enhancements"
-description: "Further enahncements to "
+description: "Further enhancements to already great features"
 draft: false
 weight: 2
 ---
