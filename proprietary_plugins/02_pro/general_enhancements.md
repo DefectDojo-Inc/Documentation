@@ -71,7 +71,7 @@ The content of the email message is as follows:
 > 
 > As a reminder, it is company policy to remediate these issues in accordance with our vulnerability SLA’s which are displayed in the above link.
 
-Where "here" is a URL to filter the list of all findings that a given group is marked as the owner
+Where "here" is a URL to filter the list of all findings to those owned by the given group.
 
 #### Scopes
 
