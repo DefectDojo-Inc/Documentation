@@ -19,7 +19,7 @@ access to DefectDojo at all.
 
 ### Owners
 
-Findings can now have owners in the form of the groups! Only groups that have access to a the product type or product
+Findings can now have owners in the form of the groups! Only groups that have access to the product type or product
 of a given finding can be designated as the owner of that finding. 
 
 ![Finding Owners](../../../images/general_enhancements/finding_owners.png)
