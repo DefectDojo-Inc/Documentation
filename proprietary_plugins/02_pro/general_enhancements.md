@@ -41,7 +41,7 @@ on any finding list page are as follows:
 
 ### Owners Digests
 
-Owners Digests is a scheduled notification that alerts finding owners of the findings that they are obligated to. 
+Owners Digests is a scheduled notification that alerts finding owners of the findings that they are responsible for. 
 To enable this type of notification, email base notifications must first be enabeled in the System Settings menu.
 
 ![Owners Digest](../../../images/general_enhancements/notifications_owners_digest.png)
