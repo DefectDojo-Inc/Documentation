@@ -21,7 +21,7 @@ To access these additional settings, navigate to the appropriate _Settings_ page
 
 Deduplication settings provide the option to select a specific deduplication algorithm, as well as the fields which will be considered when deduplication is performed.
 
-Before configuring custom deduplication settings for a specific tool, said tool must have previously been used and recognized by DefectDojo. In addition, a deduplication algorithm (a detailed list can be found [here](https://documentation.defectdojo.com/usage/features/#deduplication-algorithms)) and desired fields for indentifying duplicates must be selected. 
+Before configuring custom deduplication settings for a specific tool, said tool must have previously been used and recognized by DefectDojo. In addition, a deduplication algorithm (a detailed list can be found [here](https://documentation.defectdojo.com/usage/features/#deduplication-algorithms)) and desired fields for identifying duplicates must be selected. 
 
 Once proper choices have been made, deduplication settings may be saved via the _Submit_ button.
 
@@ -56,11 +56,11 @@ __Sign Assertions__ - when disabled, DefectDojo will not consume any SAML assert
 
 __Sign Responses__ - when disabled, DefectDojo will not consume any SAML responses that are not signed
 
-__Sign Logout Requests__ - when enabled, logoout requests will need to be signed by DefectDojo
+__Sign Logout Requests__ - when enabled, logout requests will need to be signed by DefectDojo
 
 __Force Authentication__ - when enabled, DefectDojo will force user login without relying on sessions
 
-__Enable SAML debugging__ - when enabled, more verbose output will be present in the logs for debuggin issues
+__Enable SAML debugging__ - when enabled, more verbose output will be present in the logs for debugging issues
 
 __Enable SAML__ - when enabled, the button to login via SAML will be present on the login page (_Note:_ If the _Enable SAML_ field is not checked, no SAML login button will be displayed on the DefectDojo login page.)
 
@@ -88,13 +88,15 @@ __Auth0 Domain__ - the domain of your Auth0 OAuth instance
 __Enable Auth0 OAuth__ - when enabled, the button to login via Auth0 will be present on the login page
 
  
-While this example only covers _Auth0_ configuration settings, each of the offerings for SSO requires similar data entries. Once the above fields have been appropriately filled in, the SSO settings for a given offering can be saved via the _Submit_ button.
+While this example only covers _Google_ configuration settings, each of the offerings for SSO requires similar data entries. Once the above fields have been appropriately filled in, the SSO settings for a given offering can be saved via the _Submit_ button.
 
-![Specific SSO Options](../../../images/tuner/ts-sso-auth0.png)
+![Specific SSO Options](../../../images/tuner/ts-sso-google.png)
 
-In addition to settings for each specific SSO offering, a small subset of settings general to all SSO methods can be viewed under the _SSO Settings_ page. The following options are included:
+## Login Settings
 
-__Session Age__ - Dictates how long a given session will be valid for DefectDojo. The default is set to 12 hours. When modified, the expiration for all exisitng sessions will be updated, and possibly expire
+DefectDojo offers some flexibility in how the user can login as well as opportunities for recovering access if it is lost: 
+
+__Session Age__ - Dictates how long a given session will be valid for DefectDojo. The default is set to 12 hours. When modified, the expiration for all existing sessions will be updated, and possibly expire
 
 __Show Username and Password__ -  when enabled, the username and password fields remain present on the login page and can be used for login
 
@@ -107,7 +109,7 @@ __Create User on Successful Login__ - when enabled, users authorized by SSO that
 __Auto Redirect to SSO Page__ - when enabled, visiting DefectDojo will automatically redirect to the SSO login page (_Note:_ This only works with one SSO connection configured)
 
 
-![General SSO Settings](../../../images/tuner/ts-sso-settings.png)
+![Login Settings](../../../images/tuner/ts-login-settings.png)
 
 These settings may be saved via the _Submit_ button.
 
