@@ -43,9 +43,8 @@ jobs:
 
       - run: ls -al
 
-      - run: cp -r ./docs/proprietary_plugins ./dojo/docs/content/en/ | true
-      - run: cp -r ./docs/proprietary_images/* ./dojo/docs/static/images/ | true
       - run: ./docs/hotfix.bash | true
+      # ^ what does this do, where does this file come from?
       - run: cp ./docs/config.dev.toml ./dojo/docs/
       - run: cd dojo/docs && npm ci
       - run: cd dojo/docs && hugo --minify --config config.dev.toml
@@ -68,9 +67,6 @@ jobs:
           ref: master
           path: dojo
 
-      - run: rm -rf ./dojo/docs/content/en/proprietary_plugins 
-      - run: cp -r ./docs/proprietary_plugins ./dojo/docs/content/en/ | true
-      - run: cp -r ./docs/proprietary_images/* ./dojo/docs/static/images/ | true
       - run: ./docs/hotfix.bash | true
       - run: cp ./docs/config.master.toml ./dojo/docs/
       - run: cd dojo/docs && npm ci
