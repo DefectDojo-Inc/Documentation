@@ -73,7 +73,7 @@ _Note:_ Once these settings are saved, a server reset will be forced.
 
 ## SSO Settings
 
-DefectDojo provides numerous offerings for SSO through proprietary custom settings, including _Auth0_, _Azure AD_, _GitHub Enterprise_, _GitLab_, _Google_, _KeyCloak_, and _Okta_. To configure a specific SSO offering, select it from the dropdown for configuration.
+DefectDojo provides numerous offerings for SSO through Pro custom settings, including _Auth0_, _Azure AD_, _GitHub Enterprise_, _GitLab_, _Google_, _KeyCloak_, and _Okta_. To configure a specific SSO offering, select it from the dropdown for configuration.
 
 ![SSO Options](../../../images/tuner/ts-sso-options.png)
 
