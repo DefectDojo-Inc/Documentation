@@ -31,7 +31,7 @@ When prompted with a notification regarding a given license, two options are pre
 
 ## Invalid Licenses
 
-If at any point the license becomes invalid during its duration, all proprietary features will be blocked from use until the issue is resolved.
+If at any point the license becomes invalid during its duration, all DefectDojo Pro features will be blocked from use until the issue is resolved.
 
 A license can become invalid for many reasons, including (but not limited to):
 
