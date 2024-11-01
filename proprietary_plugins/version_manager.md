@@ -7,7 +7,7 @@ weight: 2
 
 ## Version Manager
 
-The version manager within DefectDojo provides support for managing the base DefectDojo version by periodically checking for new versions of DefectDojo in one of the following locations: _DefectDojo Open Source_ or _Proprietary Offerings via DefectDojo's GCP Artifact Registry_.
+The version manager within DefectDojo provides support for managing the base DefectDojo version by periodically checking for new versions of DefectDojo in one of the following locations: _DefectDojo Open Source_ or _DefectDojo Pro Offerings via DefectDojo's GCP Artifact Registry_.
 
 To view the current DefectDojo version information of a given instance, navigate to the _Version Manager Settings_ page within the sidebar.
 

@@ -1,11 +1,11 @@
 ---
-title: "Proprietary Plugins"
+title: "DefectDojo Pro Plugins"
 description: "Additional features to enhance your experience with DefectDojo."
 weight: 4
 chapter: true
 ---
 
-Upon popular request, DefectDojo released proprietary SaaS and on premise versions of the complete DefectDojo software in 2022. These commercial versions of DefectDojo include support for implementation, best practices, bug fixes, and the features described in the **Proprietary Plugins** documentation sections.
+Upon popular request, DefectDojo released proprietary SaaS and on premise versions of the complete DefectDojo software in 2022. These commercial versions of DefectDojo include support for implementation, best practices, bug fixes, and the features described in the **DefectDojo Pro Plugins** documentation sections.
 
 ![Dark Mode Dashboard](../../images/dark_mode/dm-dashboard.png)
 
