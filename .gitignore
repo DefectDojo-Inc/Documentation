@@ -1,1 +1,9 @@
 .DS_Store
+node_modules/
+public/
+resources/_gen/
+hugo.exe
+hugo.linux
+hugo.darwin
+hugo_stats.json
+package-lock.json
