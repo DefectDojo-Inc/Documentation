@@ -7,3 +7,4 @@ hugo.linux
 hugo.darwin
 hugo_stats.json
 package-lock.json
+os_dojo*
